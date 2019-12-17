@@ -1,8 +1,6 @@
 git
 matrix-auth
 maven-plugin
-ant
-gradle
 pam-auth
 credentials-binding
 ssh-slaves
