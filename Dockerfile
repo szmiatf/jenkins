@@ -18,3 +18,6 @@ COPY default-user.groovy /usr/share/jenkins/ref/init.groovy.d/
 
 # volume for Jenkins settings
 VOLUME /var/jenkins_home
+
+#COPY ./update-plugins.sh /tmp/update-plugins.sh
+#RUN bash /tmp/update-plugins.sh
